@@ -1,0 +1,8 @@
+/**/
+
+body { font-family: Cursive; }
+.main_title { font-size: 60; text-align: center; }
+.sub_title { font-size: 20; text-align: center; }
+#main_list > div { border-top: 1px solid gray; }
+.image_bg { background: #93EB6E; width: 700px; border-radius:10px; padding: 10px; }
+.image_bg > div { margin: 5px 0px 5px 0px; }

@@ -1,0 +1,6 @@
+rrdtool create room_400110.rrd -s 60 DS:bwin:GAUGE:120:0:1000000000  RRA:AVERAGE:0.5:1:3600 RRA:AVERAGE:0.5:60:240
+
+now=`date +%s`; let start=$now-3600; rrdtool graph room_400110.png --vertical-label "bits/sec" --start $start --end $now DEF:bwin=room_400110.rrd:bwin:AVERAGE LINE2:bwin#FF0000
+
+rrdtool fetch data/room_400209.rrd AVERAGE  --start -1200 
+rrdtool graph html/1.png --lazy --vertical-label "bits/sec" --start -7d -S 3600 --title "test" -h 200 -w 600 DEF:bwin=data/room_400149.rrd:bwin:AVERAGE LINE1:bwin#0000FF

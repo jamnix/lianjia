@@ -1,0 +1,84 @@
+/*
+Theme Name: Sunny Hmoe
+Description: This is my theme for Sunny Hmoe.
+Version: 1.0
+Author: flyfinec
+*/
+
+/* ==== 全局配置摘自腾讯CDC博客 ==== */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td{margin:0;padding:0;}
+fieldset,img{border:0;}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}caption,th {text-align:center;}h1,h2,h3,h4,h5,h6{font-size:100%;}q:before,q:after{content:'';}
+/* table{table-layout:fixed;} */
+th,td{vertical-align:top;}
+i{overflow:hidden;display:inline-block;}
+iframe{background-color:white;}
+input[type="radio"],input[type="checkbox"]{margin-right:2px;#margin-right:0;}
+input{font-size:12px;font-family:Tahoma,Arial, Helvetica, sans-serif;-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;outline-color:-moz-use-text-color;outline-style:none;outline-width:medium;}
+label input{position:relative;top:2px;#top:1px;font-size:12px;}
+textarea{overflow:auto;padding:1px 0 0 1px;font-size:12px;}
+select{font-size:12px;}
+cite{line-height:33px;display:none;text-indent:-999px;}
+body{margin:0px;padding:0px;font-size:12px;color:#333;font-family:Tahoma,"宋体";background:#fff; text-align: center;}
+
+
+/* ==== 全局连接-link ==== */
+a{color:#333;text-decoration:none;font-size:12px;}
+a:hover{color:#cc0000;text-decoration:underline;}
+
+/* TABLES */
+table { border-spacing: 0; border-top: 1px solid #ccc;  border-left: 1px solid #ccc; }
+th, td { border-bottom: 1px solid #ddd; border-right: 1px solid #ccc; }
+
+th, td, caption { padding: .2em .4em .2em .4em; vertical-align: middle;}
+
+
+/* ================================ 框架 ================================ */
+/* Body */
+body{position:relative; margin:10px 10px 10px 10px;}
+/* Side Bar */
+div#side_bar{float:left; width:165px; min-height:558px; text-align:left; border: 1px solid #DFDFDF;}
+div#side_bar ul{margin-left:20px; list-style: disc; font-size: 14px;}
+div#side_bar ul li{margin: 3px auto auto 8px;}
+div#side_bar ul li a{font-size: 14px;}
+div#side_bar ul li ul{margin-left: 5px; list-style: none;}
+div#side_bar ul li ul li a{font-size: 13px;}
+
+div#side_bar ul a.cur{color: #C00;}
+/* Chart Date */
+div#chart_date{margin-left:8px;}
+div#chart_date div#quick_btn{margin:5px 0 5px 0;}
+div#chart_date div#quick_btn a{margin:0px 30px 0 2px; width:40px; line-height: 20px; font-size: 14px;}
+
+div#chart_date label{display:inline-block; margin:0 5px 0 0; width:70px;}
+div#chart_date input{margin:5px 5px 8px 0; width:67px;}
+div#chart_date span{display:inline-block; margin:5px 3px 2px 0; width:90px; text-align:right;}
+/* Chart List */
+div#chart_list{margin:5px auto 10px auto;}
+/* Main */
+div#main{position:relative; left:10px; margin:auto 10px auto 10px; overflow-y: hidden; overflow-x: auto;}
+div#main button{ float: right; margin:5px 10px 5px auto; }
+
+/* Chart Canvas */
+div#chart_canvas{height:400px; border: 1px solid #DFDFDF; width:99%;}
+/* Chart Table */
+div#chart_table{margin:10px auto; clear: both;}
+div#chart_table table{margin:0 auto; width:100%;}
+
+div#chart_table table td.weekend{color: #C00;}
+/* Footer */
+div.footer{margin-top: 8px; padding-bottom: 20px; width:100%; clear:both;}
+
+
+
+/* List */
+div#list{width: 50%; text-align: left;}
+div#list span{font-size: 20px;}
+div#list ul{list-style: disc;}
+div#list ul li{margin:5px 0px 5px 30px;}
+div#list ul li a{font-size: 18px;}
+
+
+/* ================================ footer ================================ */
+.footer a{margin-right: 20px; font-family: Verdana; font-size: 13px; color: #3D464B;}
+.footer a:hover{color: #3D464B;  text-decoration:  none;}
